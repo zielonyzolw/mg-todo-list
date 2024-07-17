@@ -8,10 +8,10 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class TodoListComponent {
   // Create variables
-  newTask: string = '';
+  newTask = '';
   tasks: string[] = [];
-  errorMessage: string = '';
-  readonly maxTasks: number = 10;
+  errorMessage = '';
+  readonly maxTasks = 10;
 
   //add translateService
   constructor(private translate: TranslateService) { }
