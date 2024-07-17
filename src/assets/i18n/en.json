@@ -1,0 +1,12 @@
+{
+  "TITLE": "To-Do List",
+  "ADD_TASK": {
+    "PLACEHOLDER": "Add a new task",
+    "BUTTON": "Add Task"
+  },
+  "DELETE_BUTTON": "Delete",
+  "ERROR": {
+    "EMPTY_TASK": "Task cannot be empty",
+    "MAX_TASKS": "You can only add up to {{maxTasks}} tasks."
+  }
+}
